@@ -14,30 +14,26 @@ header {
     background-color: red;
     flex-direction: column;
     align-items: center;
-    display: flex;
-    
-    
+    padding: 30px;
     
 }
 
 .container {
-  
-    
-    
-    
-    
+
+    display: flex;
+    align-items: center;
+ justify-content: space-between;
 }
 
 nav {
 
+    
    
-    justify-content: space-between;
 }
 
     
 
 .container img {
-
  width: 30px;
  height: 30px;
  
