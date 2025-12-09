@@ -9,7 +9,7 @@
 
 
 header {
-    width: 100%;
+    
     height: 100px;
     background-color: red;
    display: flex;
@@ -49,29 +49,24 @@ header {
     flex-direction: column;
     align-items: center;
     height: 418px;
-    width: 1200px;
+    
 
 
 }
 
 #place h1 {
-    
     font-size: 32px;
     color: white;
-    
-    
 }
 
 #place p { 
-
     flex-wrap: wrap;
-    
-    
 }
 
 
-.container-place {
-    
-    
+.card-container { 
+    background-color: gray;
+
+ 
 }
 
