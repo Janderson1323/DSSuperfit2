@@ -7,14 +7,6 @@
     padding: 0;
 }
 
-.container-total {
-    
-    align-items: center;
-    
-   
-    
-
-}
 
 header {
     
@@ -68,18 +60,25 @@ header {
     display: flex;
    flex-direction: column;
     justify-content: flex-start;
-    padding-left: 15%;
+    
     height: 418px;
 }
 
 #place h1 {
     font-size: 32px;
     color: white;
+    
+    
 
 }
 
 #place p { 
     flex-wrap: wrap;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 10px;
+    
+    
 }
 
 
@@ -87,7 +86,15 @@ header {
     background-color: gray;
     width: 960px;
     height: 127px;
-    align-items: center;
+    border-radius: 8px;
+
 
 }
 
+.container-place {
+
+    
+    margin: 0 auto;    /* centraliza */
+    
+    
+}
