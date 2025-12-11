@@ -6,11 +6,18 @@
     margin: 0;
     padding: 0;
 }
-
+:root {
+    --color-white: #fff;
+    --color-purple: #222374;
+    --color-light-gray: #ccc;
+    --color-magenta: #f03c42;
+    --color-black: #000;
+    
+}
 header {
     
     height: 100px;
-    background-color: red;
+    background-color: var(--color-magenta);
     display: flex;
     justify-content: space-between;
    
@@ -42,7 +49,7 @@ header {
  height: 30px;
 }
 .menu {
-    color: white;
+    color: var(--color-white);
 }
 
 .logo h2 {
@@ -53,7 +60,7 @@ header {
 }
 
 #place {
-    background-color: #222374;
+    background-color: var(--color-purple);
     display: flex;
    flex-direction: column;
     justify-content: flex-start;
@@ -64,7 +71,7 @@ header {
 
 #place h1 {
     font-size: 32px;
-    color: white;
+    color: var(--color-white);
     padding: 15px 0px 20px 0px;
 }
 
@@ -78,7 +85,7 @@ header {
 
 
 .card-container { 
-    background-color: gray;
+    background-color: var(--color-light-gray);
     width: 80vw;
     max-height: 42vw;
     border-radius: 8px;
@@ -88,7 +95,7 @@ header {
 }
 
 .card-container2 {
-    background-color: #222374;
+    background-color: var(--color-purple);
     width: 80vw;
     max-height: 42vw;
     border-radius: 8px;
@@ -113,7 +120,7 @@ header {
 .card-container2 h3 {
     padding: 15px;
     font-size: 20px;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .card-container2 p {
@@ -130,7 +137,7 @@ header {
 }
 
 #modalities {
-     background-color: white;
+     background-color: var(--color-white);
     display: flex;
    flex-direction: column;
     justify-content: flex-start;
@@ -142,11 +149,11 @@ header {
 .container-place h1 {
     padding: 15px 0px 20px 0px;
     font-size: 20px;
-    color: #f03c42;
+    color: var(--color-magenta);
 }
 
 .container-modalities {
-    background-color: #fff;
+    background-color: var(--color-white);
 }
 
 
@@ -155,7 +162,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: black;
+    background-color: var(--color-black);
     display: flex;
     align-items: center;
     height: auto;
@@ -191,7 +198,7 @@ footer {
 }
 
 footer p {
-    color: white;
+    color: var(--color-white);
     
     
 }
@@ -208,7 +215,7 @@ footer p {
 }
 
 .footer-container-fim address {
-    color: aliceblue;
+    color: var(--color-white);
     text-align: center;
     padding-bottom: 65px;
     
