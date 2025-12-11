@@ -169,17 +169,25 @@ footer {
     width: auto;
     display: flex;
     align-items: center;
-    
-    padding: 65px 0px 5px 0px;
-  
+    padding: 65px 0px 10px 0px;
 
+  
 }
 
-footer img {
+
+
+.footer-container img {
+    margin-right: 8px;
     height: 30px;
     width: 30px;
+   
     
-    
+}
+.footer-container2 img {
+    margin-right: 8px;
+    height: 30px;
+    width: 30px;
+
 }
 
 footer p {
@@ -190,15 +198,18 @@ footer p {
 
 .footer-container2 {
 
+    padding-bottom: 55px;
     display: flex;
     align-items: center;
     margin-left: -9px;
-    padding-bottom: 15px;
+    
+    
     
 }
 
 .footer-container-fim address {
     color: aliceblue;
     text-align: center;
+    padding-bottom: 65px;
     
 }
