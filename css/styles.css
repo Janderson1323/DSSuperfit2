@@ -7,25 +7,17 @@
     padding: 0;
 }
 
-
 header {
     
     height: 100px;
     background-color: red;
     display: flex;
     justify-content: space-between;
-    
-    
+    padding-left: 1vw;
+    padding-right: 0.7vw;
+    box-sizing: border-box;
     
 }
-
-.header h2 {
-    justify-content: flex-start;
-    
- }
-
-
-
 
 
 .menu {
@@ -34,25 +26,30 @@ header {
     justify-content: space-around;
     
 }
+.menu p {
+    font-size: 14px;
+}
 
+.menu h2 {
+    font-family: open-sans;
+    font-size: 18px;
+    padding-right: 24.9vw;
+}
 
 .menu img {
- margin: 5px;
+ margin-right: 6px;
  width: 30px;
  height: 30px;
- 
-
 }
 .menu {
     color: white;
-    
 }
 
 .logo h2 {
+
     color: white;
     display: flex;
     align-items: center;
-    
 }
 
 #place {
@@ -60,16 +57,12 @@ header {
     display: flex;
    flex-direction: column;
     justify-content: flex-start;
-    
     height: 418px;
 }
 
 #place h1 {
     font-size: 32px;
     color: white;
-    
-    
-
 }
 
 #place p { 
@@ -77,8 +70,7 @@ header {
     font-size: 14px;
     box-sizing: border-box;
     margin: 10px;
-    
-    
+    margin: 0 auto;   
 }
 
 
@@ -87,14 +79,9 @@ header {
     width: 960px;
     height: 127px;
     border-radius: 8px;
-
-
+    
 }
 
 .container-place {
-
-    
-    margin: 0 auto;    /* centraliza */
-    
-    
+    margin: 0 auto;
 }
