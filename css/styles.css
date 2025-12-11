@@ -120,16 +120,56 @@ header {
     color: #f03c42;
 }
 
-.footer-container {
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: black;
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+    min-height: 262px;
+}
+
+.footer-container {
+    
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    
+    padding: 65px 0px 5px 0px;
+  
 
 }
 
-.footer-container img {
+footer img {
     height: 30px;
     width: 30px;
+    
+    
 }
 
-.footer-container p {
+footer p {
     color: white;
+    
+    
+}
+
+.footer-container2 {
+
+    display: flex;
+    align-items: center;
+    margin-left: -9px;
+    padding-bottom: 15px;
+    
+}
+
+.footer-container-fim address {
+    color: aliceblue;
+    text-align: center;
+    
 }
