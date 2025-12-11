@@ -13,8 +13,7 @@ header {
     background-color: red;
     display: flex;
     justify-content: space-between;
-    padding-left: 1vw;
-    padding-right: 0.7vw;
+   
     box-sizing: border-box;
     
 }
@@ -23,7 +22,8 @@ header {
 .menu {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    padding-left: 11vw;
+    padding-right: 5.2vw;
     
 }
 .menu p {
@@ -33,7 +33,7 @@ header {
 .menu h2 {
     font-family: open-sans;
     font-size: 18px;
-    padding-right: 24.9vw;
+    
 }
 
 .menu img {
@@ -63,6 +63,7 @@ header {
 #place h1 {
     font-size: 32px;
     color: white;
+    padding: 15px 0px 20px 0px;
 }
 
 #place p { 
@@ -76,12 +77,29 @@ header {
 
 .card-container { 
     background-color: gray;
-    width: 960px;
-    height: 127px;
+    width: 80vw;
+    max-height: 42vw;
     border-radius: 8px;
+    padding: 20px;
+   
+}
+
+.card-container h3 {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.card-container p {
+    padding: 0px 15px;
+    flex-wrap: wrap;
     
 }
 
 .container-place {
     margin: 0 auto;
+    
+}
+
+.container-place h1 {
+
 }
