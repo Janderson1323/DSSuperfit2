@@ -22,7 +22,7 @@ header {
 .menu {
     display: flex;
     align-items: center;
-    padding-left: 11vw;
+    padding-left: 10vw;
     padding-right: 5.2vw;
     
 }
@@ -87,6 +87,16 @@ header {
    
 }
 
+.card-container2 {
+    background-color: #222374;
+    width: 80vw;
+    max-height: 42vw;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+}
+
 .card-container h3 {
     padding: 15px;
     font-size: 20px;
@@ -96,6 +106,21 @@ header {
     padding: 0px 15px;
     flex-wrap: wrap;
     font-size: 14px;
+    
+    
+}
+
+.card-container2 h3 {
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.card-container2 p {
+    padding: 0px 15px;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #ccc;
     
 }
 
@@ -118,6 +143,10 @@ header {
     padding: 15px 0px 20px 0px;
     font-size: 20px;
     color: #f03c42;
+}
+
+.container-modalities {
+    background-color: #fff;
 }
 
 
