@@ -57,7 +57,9 @@ header {
     display: flex;
    flex-direction: column;
     justify-content: flex-start;
-    height: 418px;
+    height: auto;
+    
+    
 }
 
 #place h1 {
@@ -80,7 +82,8 @@ header {
     width: 80vw;
     max-height: 42vw;
     border-radius: 8px;
-    padding: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
    
 }
 
@@ -100,6 +103,11 @@ header {
     
 }
 
-.container-place h1 {
+#modalities {
+     background-color: white;
+    display: flex;
+   flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
 
 }
